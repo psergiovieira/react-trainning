@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Game from './Game';
 import CardList from './CardList';
+import MasterForm from './MasterForm';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-    <CardList />,
+    <MasterForm />,
     document.getElementById('root')
   );
 
